@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cat *.txt | tr ' ' '\n'| egrep -v "^$" | sort | uniq -c | sort -n
+./text_to_wordcloud_fodder.sh | sort | uniq -c | sort -n
