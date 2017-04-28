@@ -5,6 +5,6 @@ for i in $(ls *.json); do
     echo $NAME.txt already exists >&2
   else
     echo creating $NAME.txt >&2
-    cat $NAME.json | ./just_the_text.sh > $NAME.txt
+    cat $NAME.json | ./just_the_confident_text.sh > $NAME.txt
   fi
 done
